@@ -2,8 +2,8 @@ name: x86_64 release builds
 
 on:
   push:
-    tags:
-      - "*-rt_*-rev*"
+    branches:
+      - 'main'
 
 jobs:
   split-tag:
